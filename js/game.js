@@ -48,7 +48,7 @@ class Game{
                  var index =0;
                  drawSprites();
 
-                 var dp;
+                 var dp =140;
 
                  for(var plr in allPlayers){
                     
@@ -60,7 +60,7 @@ class Game{
                      players[index -1].x = x;
                      players[index - 1].y = y;
 
-                     dp = 140;
+                     dp = dp +100;
 
                      fill("white");
                      textSize(25);  
