@@ -60,7 +60,7 @@ class Game{
                      players[index -1].x = x;
                      players[index - 1].y = y;
 
-                     dp = 140;
+                     dp = 140+50;
 
                      fill("white");
                      textSize(25);  
